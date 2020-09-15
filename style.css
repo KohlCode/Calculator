@@ -1,0 +1,27 @@
+body {
+    
+}
+
+.calculator-container {
+    
+    display: grid;
+    width: 200px;
+    margin: 0 auto;
+    grid-template-columns: repeat(1fr, 4);
+    grid-template-rows: repeat(1fr, 4);
+}
+
+#display {
+    font-size: 35px;
+   
+}
+
+.buttons-container {
+    
+}
+
+button {
+    height: 50px;
+    width: 50px;
+}
+
